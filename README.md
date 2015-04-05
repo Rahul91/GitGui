@@ -13,7 +13,8 @@ and that does the trick for you.
 #How to use:
 1. Just import the package GitGui
 2. Invoke the gitgui() function
-        from Gitgui import gitgui
+
+        from GitGui import gitgui
         gitgui()
 
 
