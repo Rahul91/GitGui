@@ -10,7 +10,7 @@ Install it on the go with pip install
 
    NOTE : FOR THE NOOB I AM, REMEMBER TO USE A VIRTUALENV WHILE INSTALLING THE CODE :)
 
-         pip install GitGui
+         sudo pip install GitGui
 and that does the trick for you.
 
 #How to use:
