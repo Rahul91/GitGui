@@ -15,10 +15,11 @@ and that does the trick for you.
 
 #How to use:
 1. Just import the package GitGui
-2. Invoke the gitgui() function
-
-        from GitGui import gitgui
-        gitgui()
+2. Or Invoke the function.
+         
+        import gitgui
+        or
+        from gitgui import gitgui
 
 3. Save the program as *.py and execute.
 
