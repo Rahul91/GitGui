@@ -23,9 +23,7 @@ and that does the trick for you.
 
 #Utilities:
 1. Being a GUI based application, now its easier to push files to your Github repos. Consider this for a moment, through standard process, in order to push a file to your github repo, you need to first initialize git in your current directory, then add a file, then commit it with some message, then you need to configure remote and then you can push it to your remote, thats not all then you have to enter username and password. A long tiring process indeed, therefore a GUI based app that reduces your effort.
-
-Just add your file, using filebrowser, enter your commit message and repo and you are done.
-
+         Just add your file, using filebrowser, enter your commit message and repo and you are done.
 2. No need for username and password authentication, as github auth token does this job in background for you.
 3. If you have by-mistaken entered the incorrect repo name, i.e. if repo is not present, the app lists all the repos you have and lets you try again.
 4. Also if you try to push a file, that is already there in your repo, it will print an error message and aborts the program
