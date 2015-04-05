@@ -37,7 +37,7 @@ Feel free to clone and play arond the code to make it better
       
 #Issues:
 1. The code is very 'brute' in nature and design, help it to be more pythonic and asthetic.
-2. Only one file can be pushed at a time, which should not be the case idially.
+2. Only one file can be pushed at a time, which should not be the case ideally.
 3. Find a issue and mail me: priyrahulmishra@gmail.com
 
         
