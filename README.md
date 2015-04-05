@@ -8,6 +8,8 @@ If you are too lazy to add and commit through command prompt, then this app is f
 #Installation:
 Install it on the go with pip install
 
+   NOTE : FOR THE NOOB I AM, REMEMBER TO USE A VIRTUALENV WHILE INSTALLING THE CODE :)
+
          pip install GitGui
 and that does the trick for you.
 
