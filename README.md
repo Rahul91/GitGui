@@ -25,7 +25,7 @@ Then write the following within pip.conf
           [global]
           index-url = https://testpypi.python.org/pypi/
 
-This points, the pip to look the package in test server, that is testpypi and not the actual server, where all the core packages are present. Hope this helps :) 
+This points, the pip to look for the package in test server as this package is being hosted on the test-server testpypi and not the actual server, where all the core packages are present. Hope this helps :) 
          
 
 #How to use:
