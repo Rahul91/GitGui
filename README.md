@@ -6,20 +6,34 @@ easily, without any difficulties.
 If you are too lazy to add and commit through command prompt, then this app is for you.
 
 #Installation:
-Install it on the go with pip install
+Install it on the go with pip install.
 
    NOTE : FOR THE NOOB I AM, REMEMBER TO USE A VIRTUALENV WHILE INSTALLING THE CODE :)
 
          sudo pip install GitGui
 and that does the trick for you.
 
+If you are having trouble in installing this package, just configure your pip.conf file.
+You should find your pip.conf file here: /home/.pip/pip.conf, however if it is not present, dont panic just make
+a file namely pip.conf and put the codes within as showed.
+          
+          /$ cd .pip
+          /.pip$ vim pip.conf
+          
+Then write the following within pip.conf
+         
+          [global]
+          index-url = https://testpypi.python.org/pypi/
+
+This points, the pip to look the package in test server, that is testpypi and not the actual server, where all the core packages are present. Hope this helps :) 
+         
+
 #How to use:
 1. Just import the package GitGui
-2. Or Invoke the function.
+2. And invoke the function gitall().
          
-        import gitgui
-        or
-        from gitgui import gitgui
+         import gutgui
+         gitgui.gitall()
 
 3. Save the program as *.py and execute.
 
