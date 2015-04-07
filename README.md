@@ -8,7 +8,7 @@ If you are too lazy to add and commit through command prompt, then this app/pack
 FUN FACT - All the files in this repo is pushed using this app/package only :)
 
 #Installation:
-Install it on the go with pip install.
+1.Install it on the go with pip install.
 
    NOTE : FOR THE NOOB I AM, REMEMBER TO USE A VIRTUALENV WHILE INSTALLING THE CODE :)
 
@@ -28,6 +28,8 @@ Then write the following within pip.conf
 
 This points, the pip to look for the package in test server as this package is being hosted on the test-server testpypi and not the actual server, where all the core packages are present. Hope this helps :) 
          
+2. But you really dont need to install it, you can just download the git_gui.py and __init__.py source code, get them in a directory and you are good to go. This way, you can change the program as you like it
+
 
 #How to use:
 1. Just import the package GitGui
