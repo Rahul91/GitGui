@@ -15,7 +15,7 @@ Install it on the go with pip install.
          sudo pip install GitGui
 and that does the trick for you.
 
-But before using pip to instal this package, little bit of tweaking is needed. You have to configure your pip.conf file. You should find your pip.conf file here: /home/.pip/pip.conf, however if it is not present, dont panic just
+But before using pip to install this package, little bit of tweaking is needed. You have to configure your pip.conf file. You should find your pip.conf file here: /home/.pip/pip.conf, however if it is not present, dont panic just
 make a file namely pip.conf and put the codes within as showed. Let me show from begining.
           
           /$ cd .pip
