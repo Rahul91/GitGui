@@ -20,7 +20,7 @@ def gitall():
 	#print "\nNow, that you have your auth token, from next execution simply comment out first 3 lines of code and paste your token in program itself, save and enjoy.\nYou should find the source-code here:/usr/local/lib/python2.7/dist-packages/gitgui/git_gui.py"
 	'''
 	
-	token = '33aa8aec26d79b1843d50385cdea04093b90570f'  #Github auth token for authorisation
+	token = '33aa***************************************0570f'  #Github auth token for authorisation
 
 	gh = github.GitHub(access_token=token)
 	username = str(gh.user.get()['login'])
