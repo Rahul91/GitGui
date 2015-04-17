@@ -12,28 +12,31 @@ FUN FACT - All the files in this repo is pushed using this app/package only :)
 You really dont need to install it, you can just download the git_gui.py and __init__.py source code, get them in a directory and you are good to go. This way, you can change the program as you like it
 
 But if you really want to install then go through the following:
+
 1.Install it on the go with pip install.
 
    NOTE : FOR THE NOOB I AM, REMEMBER TO USE A VIRTUALENV WHILE INSTALLING THE CODE :)
 
          sudo pip install GitGui
-and that does the trick for you.
+   and that does the trick for you.
 
-But before using pip to install this package, little bit of tweaking is needed. You have to configure your pip.conf file. You should find your pip.conf file here: /home/.pip/pip.conf, however if it is not present, dont panic just
-make a file namely pip.conf and put the codes within as showed. Let me show from begining.
+   But before using pip to install this package, little bit of tweaking is needed. You have to configure your pip.conf    file. You should find your pip.conf file here: /home/.pip/pip.conf, however if it is not present, dont panic just
+   make a file namely pip.conf and put the codes within as showed. Let me show from begining.
           
           /$ cd .pip
           /.pip$ vim pip.conf
-          
-Then write the following within pip.conf
+            
+   Then write the following within pip.conf
          
           [global]
           index-url = https://testpypi.python.org/pypi/
 
-This points, the pip to look for the package in test server as this package is being hosted on the test-server testpypi and not the actual server, where all the core packages are present. Hope this helps :) 
- 
- 2. If python-setuptools is pre-installed, you can also use easy_install command
-               easy_install GitGui
+   This points, the pip to look for the package in test server as this package is being hosted on the test-server         testpypi and not the actual server, where all the core packages are present. Hope this helps :) 
+  
+
+2. If python-setuptools is pre-installed, you can also use easy_install command
+
+            easy_install GitGui
 
 
 
