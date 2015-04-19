@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>GitGui by Rahul91</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">GitGui</h1>
+      <h2 class="project-tagline">A Gui based, github applicaiton</h2>
+      <a href="https://github.com/Rahul91/GitGui" class="btn">View on GitHub</a>
+      <a href="https://github.com/Rahul91/GitGui/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/Rahul91/GitGui/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="gitgui" class="anchor" href="#gitgui" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitGui</h1>
+
+<h1>
+<a id="introduciton" class="anchor" href="#introduciton" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduciton:</h1>
+
+<p>A python GUI based application/package, that lets you push a file to your github
+easily, without any difficulties.
+If you are too lazy to add and commit through command prompt, then this app/package is for you.</p>
+
+<p>FUN FACT - All the files in this repo is pushed using this app/package only :)</p>
+
+<h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:</h1>
+
+<p>You really dont need to install it, you can just download the git_gui.py and <strong>init</strong>.py source code, get them in a directory and you are good to go. This way, you can change the program as you like it</p>
+
+<p>But if you really want to install then go through the following:</p>
+
+<p>1.Install it on the go with pip install.</p>
+
+<p>NOTE : FOR THE NOOB I AM, REMEMBER TO USE A VIRTUALENV WHILE INSTALLING THE CODE :)</p>
+
+<pre><code>     sudo pip install GitGui
+</code></pre>
+
+<p>and that does the trick for you.</p>
+
+<p>But before using pip to install this package, little bit of tweaking is needed. You have to configure your pip.conf    file. You should find your pip.conf file here: /home/.pip/pip.conf, however if it is not present, dont panic just
+   make a file namely pip.conf and put the codes within as showed. Let me show from begining.</p>
+
+<pre><code>      /$ cd .pip
+      /.pip$ vim pip.conf
+</code></pre>
+
+<p>Then write the following within pip.conf</p>
+
+<pre><code>      [global]
+      index-url = https://testpypi.python.org/pypi/
+</code></pre>
+
+<p>This points, the pip to look for the package in test server as this package is being hosted on the test-server         testpypi and not the actual server, where all the core packages are present. Hope this helps :) </p>
+
+<ol>
+<li>
+<p>If python-setuptools is pre-installed, you can also use easy_install command</p>
+
+<pre><code>    easy_install GitGui
+</code></pre>
+</li>
+</ol>
+
+<h1>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use:</h1>
+
+<ol>
+<li>Just import the package GitGui</li>
+<li>
+<p>And invoke the function gitall().</p>
+
+<pre><code> import gutgui
+ gitgui.gitall()
+</code></pre>
+</li>
+<li><p>Save the program as *.py and execute.</p></li>
+</ol>
+
+<h1>
+<a id="utilities" class="anchor" href="#utilities" aria-hidden="true"><span class="octicon octicon-link"></span></a>Utilities:</h1>
+
+<ol>
+<li>Being a GUI based application, now its easier to push files to your Github repos. Consider this for a moment, through standard process, in order to push a file to your github repo, you need to first initialize git in your current directory, then add a file, then commit it with some message, then you need to configure remote and then you can push it to your remote, thats not all then you have to enter username and password. A long tiring process indeed, therefore a GUI based app that reduces your effort.
+     Just add your file, using filebrowser, enter your commit message and repo and you are done.</li>
+<li>No need for username and password authentication, as github auth token does this job in background for you.</li>
+<li>If you have by-mistaken entered the incorrect repo name, i.e. if repo is not present, the app lists all the repos you have and lets you try again.</li>
+<li>Also if you try to push a file, that is already there in your repo, it will print an error message and aborts the program</li>
+<li>Make the program *.py executable using chmod, make a shortcut of this program to your desktop(so that you dont forget to push) and start pushing all the codes, that you have written and not pushed. </li>
+</ol>
+
+<h1>
+<a id="clone" class="anchor" href="#clone" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clone</h1>
+
+<p>Feel free to clone and play arond the code to make it better</p>
+
+<pre><code>  git clone https://github.com/Rahul91/GitGui
+</code></pre>
+
+<h1>
+<a id="issues" class="anchor" href="#issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>Issues:</h1>
+
+<ol>
+<li>The code is very 'brute' in nature and design, help it to be more pythonic and asthetic.</li>
+<li>Only one file can be pushed at a time, which should not be the case ideally.</li>
+<li>Find a issue and mail me: <a href="mailto:priyrahulmishra@gmail.com">priyrahulmishra@gmail.com</a>
+</li>
+</ol>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/Rahul91/GitGui">GitGui</a> is maintained by <a href="https://github.com/Rahul91">Rahul91</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
