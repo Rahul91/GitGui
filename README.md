@@ -5,7 +5,7 @@ A python GUI based application/package, that lets you push a file to your github
 easily, without any difficulties.
 If you are too lazy to add and commit through command prompt, then this app/package is for you.
 
-FUN FACT - All the files in this repo is pushed using this app/package only :)
+FUN FACT - <i>All the files in this repo is pushed using this app/package only :)</i>
 
 #Installation:
 
